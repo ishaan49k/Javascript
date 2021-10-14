@@ -52,21 +52,20 @@ val = firstName.charAt(firstName.length - 1);
 
 val = firstName.substring(0, 4)
 
-// Slice()
-val = firstName.slice(0, 4);
-val = firstName.slice(-3);
+// Slice() - similar to substr
+val = firstName.slice(0, 4);  // gives the same thing as substr.
+val = firstName.slice(-3);   // we can do -ive indexing using slice
 
 // split()
 
-val = str.split(" ")
+val = str.split(" ")   // turns into an array based on spaces. ie array where all the words of sentence is split on spaces
 val = tags.split(',')
 
 // replace()
 
 val = str.replace("brad", "Jack");
 
-// Includes()
-
+// Includes() - returns true if the argument is part of the string 
 val = str.includes('Hello')
 
 
