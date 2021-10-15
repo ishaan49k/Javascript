@@ -1,0 +1,6 @@
+the dom is a structured representation of HTML document. It is a tree of nodes created by the browser. Using js, we can use edit these dom elemenrs/ nodes.
+
+The dom is object oriented, ie each node has its own set of attributes and properties.
+
+The browser gives us a window object and inside that we have a document object.
+
